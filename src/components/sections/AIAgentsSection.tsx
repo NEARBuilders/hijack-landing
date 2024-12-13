@@ -1,4 +1,3 @@
-import React from 'react';
 import { Bot, Network, Users } from 'lucide-react';
 
 export default function AIAgentsSection() {

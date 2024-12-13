@@ -1,4 +1,3 @@
-import React from 'react';
 import { Gavel } from 'lucide-react';
 
 export default function GovernanceSection() {

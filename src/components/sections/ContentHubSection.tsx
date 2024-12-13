@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import { BookOpen, ExternalLink } from 'lucide-react';
 
 export default function ContentHubSection() {

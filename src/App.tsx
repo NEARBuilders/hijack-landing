@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import MatrixLoader from './components/MatrixLoader'
 import MatrixRain from './components/MatrixRain'
 import Navbar from './components/Navbar'

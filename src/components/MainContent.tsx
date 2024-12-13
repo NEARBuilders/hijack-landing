@@ -1,4 +1,3 @@
-import React from 'react';
 import CommunitySection from './sections/CommunitySection';
 import AIAgentsSection from './sections/AIAgentsSection';
 import TokenSection from './sections/TokenSection';
