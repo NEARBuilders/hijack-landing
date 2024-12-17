@@ -5,10 +5,10 @@
 
 <div align="center">
 
-<h1 style="font-size: 2.5rem; font-weight: bold;">$HIJACK Website</h1>
+<h1 style="font-size: 2.5rem; font-weight: bold;">$HIJACK Webiste</h1>
 
   <p>
-    <strong>Landing page for $HIJACK project</strong>
+    <strong>Landing page for the community-driven AI memecoin ecosystem on NEAR</strong>
   </p>
 
 </div>
