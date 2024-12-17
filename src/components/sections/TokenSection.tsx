@@ -1,9 +1,12 @@
-import { Coins } from 'lucide-react';
+import { Coins } from "lucide-react";
 
 export default function TokenSection() {
   return (
     <section id="token" className="space-y-8">
-      <h2 className="text-4xl font-matrix text-matrix-primary matrix-text glitch" data-text="$HiJack Token">
+      <h2
+        className="text-4xl font-matrix text-matrix-primary matrix-text glitch"
+        data-text="$HiJack Token"
+      >
         $HiJack Token
       </h2>
       <div className="grid md:grid-cols-2 gap-8">

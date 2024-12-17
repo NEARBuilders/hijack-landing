@@ -1,4 +1,4 @@
-import { Bot, Zap } from 'lucide-react';
+import { Bot, Zap } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -8,15 +8,25 @@ export default function Hero() {
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:mx-auto lg:col-span-6 lg:text-left">
               <h1>
-                <span className="block text-base font-semibold text-matrix-green font-mono">Initializing HiJack Protocol</span>
+                <span className="block text-base font-semibold text-matrix-green font-mono">
+                  Initializing HiJack Protocol
+                </span>
                 <span className="mt-1 block text-4xl font-bold tracking-tight sm:text-5xl xl:text-6xl font-matrix">
-                  <span className="block text-matrix-green matrix-text glitch" data-text="The Future of AI">The Future of AI</span>
-                  <span className="block text-matrix-green">on NEAR Protocol</span>
+                  <span
+                    className="block text-matrix-green matrix-text glitch"
+                    data-text="The Future of AI"
+                  >
+                    The Future of AI
+                  </span>
+                  <span className="block text-matrix-green">
+                    on NEAR Protocol
+                  </span>
                 </span>
               </h1>
               <p className="mt-3 text-base text-matrix-green/90 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl font-mono">
-                Enter the matrix where community-driven AI meets blockchain technology. 
-                Building the next generation of AI agents on the NEAR ecosystem.
+                Enter the matrix where community-driven AI meets blockchain
+                technology. Building the next generation of AI agents on the
+                NEAR ecosystem.
               </p>
               <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
                 <div className="grid grid-cols-2 gap-4">
@@ -45,21 +55,29 @@ export default function Hero() {
                       <div className="w-full border-t border-matrix-green" />
                     </div>
                     <div className="relative flex justify-center text-sm">
-                      <span className="bg-black px-2 text-matrix-green font-mono">System Updates</span>
+                      <span className="bg-black px-2 text-matrix-green font-mono">
+                        System Updates
+                      </span>
                     </div>
                   </div>
                   <div className="mt-6 space-y-4">
                     <div className="flex items-start space-x-3">
                       <div className="h-2 w-2 mt-2 rounded-full bg-matrix-green animate-pulse-matrix" />
-                      <p className="text-sm text-matrix-green font-mono">New AI agent deployment on NEAR testnet</p>
+                      <p className="text-sm text-matrix-green font-mono">
+                        New AI agent deployment on NEAR testnet
+                      </p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="h-2 w-2 mt-2 rounded-full bg-matrix-green animate-pulse-matrix" />
-                      <p className="text-sm text-matrix-green font-mono">Community governance proposal #23 passed</p>
+                      <p className="text-sm text-matrix-green font-mono">
+                        Community governance proposal #23 passed
+                      </p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <div className="h-2 w-2 mt-2 rounded-full bg-matrix-green animate-pulse-matrix" />
-                      <p className="text-sm text-matrix-green font-mono">Partnership announcement with NearAI</p>
+                      <p className="text-sm text-matrix-green font-mono">
+                        Partnership announcement with NearAI
+                      </p>
                     </div>
                   </div>
                 </div>

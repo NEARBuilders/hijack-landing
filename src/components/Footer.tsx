@@ -12,24 +12,64 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 font-mono">Social</h3>
             <div className="space-y-2">
-              <a href="#" className="block text-matrix-primary/70 hover:text-matrix-primary font-mono">Telegram</a>
-              <a href="#" className="block text-matrix-primary/70 hover:text-matrix-primary font-mono">Twitter</a>
-              <a href="#" className="block text-matrix-primary/70 hover:text-matrix-primary font-mono">Discord</a>
+              <a
+                href="#"
+                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
+              >
+                Telegram
+              </a>
+              <a
+                href="#"
+                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
+              >
+                Twitter
+              </a>
+              <a
+                href="#"
+                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
+              >
+                Discord
+              </a>
             </div>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4 font-mono">Resources</h3>
             <div className="space-y-2">
-              <a href="#" className="block text-matrix-primary/70 hover:text-matrix-primary font-mono">Documentation</a>
-              <a href="#" className="block text-matrix-primary/70 hover:text-matrix-primary font-mono">GitHub</a>
-              <a href="#" className="block text-matrix-primary/70 hover:text-matrix-primary font-mono">Blog</a>
+              <a
+                href="#"
+                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
+              >
+                Documentation
+              </a>
+              <a
+                href="#"
+                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
+              >
+                GitHub
+              </a>
+              <a
+                href="#"
+                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
+              >
+                Blog
+              </a>
             </div>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4 font-mono">Legal</h3>
             <div className="space-y-2">
-              <a href="#" className="block text-matrix-primary/70 hover:text-matrix-primary font-mono">Privacy Policy</a>
-              <a href="#" className="block text-matrix-primary/70 hover:text-matrix-primary font-mono">Terms of Service</a>
+              <a
+                href="#"
+                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="#"
+                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
+              >
+                Terms of Service
+              </a>
             </div>
           </div>
         </div>

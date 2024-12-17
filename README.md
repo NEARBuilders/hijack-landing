@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+<!-- markdownlint-disable MD014 -->
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD029 -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+<h1 style="font-size: 2.5rem; font-weight: bold;">$HIJACK Website</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p>
+    <strong>Landing page for $HIJACK project</strong>
+  </p>
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<details>
+  <summary>Table of Contents</summary>
 
-- Configure the top-level `parserOptions` property like this:
+- [Getting Started](#getting-started)
+  - [Installing dependencies](#installing-dependencies)
+  - [Running the app](#running-the-app)
+  - [Building for production](#building-for-production)
+- [Contributing](#contributing)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+</details>
+
+## Getting Started
+
+### Installing dependencies
+
+```bash
+bun install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Running the app
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+First, run the development server:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+bun run dev
 ```
+
+### Building for production
+
+```bash
+bun run build
+```
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you're interested in contributing to this project, please read the [contribution guide](./CONTRIBUTING).
+
+<div align="right">
+<a href="https://nearbuilders.org" target="_blank">
+<img
+  src="https://builders.mypinata.cloud/ipfs/QmWt1Nm47rypXFEamgeuadkvZendaUvAkcgJ3vtYf1rBFj"
+  alt="Near Builders"
+  height="40"
+/>
+</a>
+</div>

@@ -1,4 +1,4 @@
-import { Bot, Zap } from 'lucide-react';
+import { Bot, Zap } from "lucide-react";
 
 export default function MascotHero() {
   return (
@@ -7,15 +7,25 @@ export default function MascotHero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:mx-auto lg:col-span-6 lg:text-left">
             <h1>
-              <span className="block text-base font-semibold text-matrix-primary font-mono">Initializing HiJack Protocol</span>
+              <span className="block text-base font-semibold text-matrix-primary font-mono">
+                Initializing HiJack Protocol
+              </span>
               <span className="mt-1 block text-4xl font-bold tracking-tight sm:text-5xl xl:text-6xl font-matrix">
-                <span className="block text-matrix-primary matrix-text glitch" data-text="The Future of AI">The Future of AI</span>
-                <span className="block text-matrix-primary">on NEAR Protocol</span>
+                <span
+                  className="block text-matrix-primary matrix-text glitch"
+                  data-text="The Future of AI"
+                >
+                  The Future of AI
+                </span>
+                <span className="block text-matrix-primary">
+                  on NEAR Protocol
+                </span>
               </span>
             </h1>
             <p className="mt-3 text-base text-matrix-primary/90 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl font-mono">
-              Enter the matrix where community-driven AI meets blockchain technology. 
-              Building the next generation of AI agents on the NEAR ecosystem.
+              Enter the matrix where community-driven AI meets blockchain
+              technology. Building the next generation of AI agents on the NEAR
+              ecosystem.
             </p>
             <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
               <div className="grid grid-cols-2 gap-4">

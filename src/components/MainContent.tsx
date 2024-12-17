@@ -1,9 +1,8 @@
-import CommunitySection from './sections/CommunitySection';
-import AIAgentsSection from './sections/AIAgentsSection';
-import TokenSection from './sections/TokenSection';
-import EcosystemSection from './sections/EcosystemSection';
-import ContentHubSection from './sections/ContentHubSection';
-import GovernanceSection from './sections/GovernanceSection';
+import CommunitySection from "./sections/CommunitySection";
+import AIAgentsSection from "./sections/AIAgentsSection";
+import TokenSection from "./sections/TokenSection";
+import EcosystemSection from "./sections/EcosystemSection";
+import ContentHubSection from "./sections/ContentHubSection";
 
 export default function MainContent() {
   return (
@@ -13,7 +12,6 @@ export default function MainContent() {
       <TokenSection />
       <EcosystemSection />
       <ContentHubSection />
-      <GovernanceSection />
     </main>
   );
 }

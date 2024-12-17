@@ -1,9 +1,12 @@
-import { Gavel } from 'lucide-react';
+import { Gavel } from "lucide-react";
 
 export default function GovernanceSection() {
   return (
     <section id="governance" className="space-y-8">
-      <h2 className="text-4xl font-matrix text-matrix-primary matrix-text glitch" data-text="Governance">
+      <h2
+        className="text-4xl font-matrix text-matrix-primary matrix-text glitch"
+        data-text="Governance"
+      >
         Governance
       </h2>
       <div className="bg-matrix-dark/30 border border-matrix-primary p-6 rounded-lg">
@@ -11,7 +14,9 @@ export default function GovernanceSection() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-mono mb-2">DAO Members</h3>
-            <p className="text-matrix-primary/80 font-mono">1,337 active members</p>
+            <p className="text-matrix-primary/80 font-mono">
+              1,337 active members
+            </p>
           </div>
           <div>
             <h3 className="text-xl font-mono mb-2">Treasury</h3>
@@ -19,7 +24,9 @@ export default function GovernanceSection() {
           </div>
           <div>
             <h3 className="text-xl font-mono mb-2">Proposals</h3>
-            <p className="text-matrix-primary/80 font-mono">23 active proposals</p>
+            <p className="text-matrix-primary/80 font-mono">
+              23 active proposals
+            </p>
           </div>
         </div>
       </div>
