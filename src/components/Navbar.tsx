@@ -20,36 +20,36 @@ export default function Navbar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a
+              {/* <a
                 href="#community"
                 className="text-matrix-green/70 hover:text-matrix-green px-3 py-2 rounded-md text-sm font-mono"
               >
                 Community Story
-              </a>
+              </a> */}
               <a
                 href="#ai-agents"
                 className="text-matrix-green/70 hover:text-matrix-green px-3 py-2 rounded-md text-sm font-mono"
               >
                 AI Agents
               </a>
-              <a
+              {/* <a
                 href="#token"
                 className="text-matrix-green/70 hover:text-matrix-green px-3 py-2 rounded-md text-sm font-mono"
               >
                 $HiJack Token
-              </a>
+              </a> */}
               <a
                 href="#ecosystem"
                 className="text-matrix-green/70 hover:text-matrix-green px-3 py-2 rounded-md text-sm font-mono"
               >
                 Near Eco
               </a>
-              <a
+              {/* <a
                 href="#content"
                 className="text-matrix-green/70 hover:text-matrix-green px-3 py-2 rounded-md text-sm font-mono"
               >
                 AI Content Hub
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="md:hidden">
@@ -70,36 +70,36 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
+            {/* <a
               href="#community"
               className="text-matrix-green/70 hover:text-matrix-green block px-3 py-2 rounded-md text-base font-mono"
             >
               Community Story
-            </a>
+            </a> */}
             <a
               href="#ai-agents"
               className="text-matrix-green/70 hover:text-matrix-green block px-3 py-2 rounded-md text-base font-mono"
             >
               AI Agents
             </a>
-            <a
+            {/* <a
               href="#token"
               className="text-matrix-green/70 hover:text-matrix-green block px-3 py-2 rounded-md text-base font-mono"
             >
               $HiJack Token
-            </a>
+            </a> */}
             <a
               href="#ecosystem"
               className="text-matrix-green/70 hover:text-matrix-green block px-3 py-2 rounded-md text-base font-mono"
             >
               Near Eco
             </a>
-            <a
+            {/* <a
               href="#content"
               className="text-matrix-green/70 hover:text-matrix-green block px-3 py-2 rounded-md text-base font-mono"
             >
               AI Content Hub
-            </a>
+            </a> */}
           </div>
         </div>
       )}

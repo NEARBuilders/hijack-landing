@@ -31,7 +31,9 @@ export default function Hero() {
               <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
                 <div className="grid grid-cols-2 gap-4">
                   <a
-                    href="#token"
+                    href="https://meme.cooking/meme/252"
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex items-center justify-center rounded-lg bg-matrix-dark border border-matrix-green px-4 py-3 text-base font-mono text-matrix-green hover:bg-matrix-green hover:text-black transition-all duration-300"
                   >
                     <Zap className="mr-2 h-5 w-5" />

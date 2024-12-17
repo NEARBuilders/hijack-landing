@@ -13,26 +13,24 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 font-mono">Social</h3>
             <div className="space-y-2">
               <a
-                href="#"
+                href="https://t.co/CGY7OsfyNQ"
+                target="_blank"
+                rel="noreferrer"
                 className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
               >
                 Telegram
               </a>
               <a
-                href="#"
+                href="https://x.com/HijackNear"
+                target="_blank"
+                rel="noreferrer"
                 className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
               >
                 Twitter
               </a>
-              <a
-                href="#"
-                className="block text-matrix-primary/70 hover:text-matrix-primary font-mono"
-              >
-                Discord
-              </a>
             </div>
           </div>
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold mb-4 font-mono">Resources</h3>
             <div className="space-y-2">
               <a
@@ -54,8 +52,8 @@ export default function Footer() {
                 Blog
               </a>
             </div>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <h3 className="text-lg font-semibold mb-4 font-mono">Legal</h3>
             <div className="space-y-2">
               <a
@@ -71,7 +69,7 @@ export default function Footer() {
                 Terms of Service
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mt-8 pt-8 border-t border-matrix-primary/30 text-center text-sm text-matrix-primary/70 font-mono">
           © {new Date().getFullYear()} HiJack. All rights reserved.

@@ -30,7 +30,9 @@ export default function MascotHero() {
             <div className="mt-8 sm:mx-auto sm:max-w-lg sm:text-center lg:mx-0 lg:text-left">
               <div className="grid grid-cols-2 gap-4">
                 <a
-                  href="#token"
+                  href="https://meme.cooking/meme/252"
+                  target="_blank"
+                  rel="noreferrer"
                   className="flex items-center justify-center rounded-lg bg-matrix-dark border border-matrix-primary px-4 py-3 text-base font-mono text-matrix-primary hover:bg-matrix-primary hover:text-black transition-all duration-300"
                 >
                   <Zap className="mr-2 h-5 w-5" />
@@ -49,7 +51,7 @@ export default function MascotHero() {
           <div className="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0 relative">
             <div className="relative mx-auto w-full max-w-md lg:max-w-full">
               <img
-                src="./Hijack.jpg"
+                src="./assets/hijack.jpg"
                 alt="HiJack Mascot"
                 className="w-full h-auto max-w-md mx-auto lg:max-w-full animate-float"
               />
